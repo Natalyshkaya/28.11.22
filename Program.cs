@@ -13,12 +13,12 @@ int[] CreateMassive(int col)
     return array;
 }
 
-int AmountEven(int[] massiv)
+int AmountEven(int[] array)
 {
     int coant = 0;
-    for (int i = 0; i < massiv.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        if (massiv[i] % 2 == 0)
+        if (array[i] % 2 == 0)
         {
             coant++;
         }
